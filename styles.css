@@ -6,7 +6,7 @@ img {
 }
 
 #title {
-  color: red;
+  color: whitesmoke;
   font-weight: 150;
   font-style: oblique;
 }
@@ -25,13 +25,29 @@ img {
 .active {
   color: black;
 }
+.form {
+  color: burlywood;
+  float: inline-end;
+  background-color: darkolivegreen;
+}
 table,
-th,
+tr,
 td {
-  border: 2px solid black;
+  text-align-last: center;
+  background-color: #04aa6d;
+  color: rgb(180, 16, 16);
+  border: 1.5px solid white;
   box-sizing: border-box;
+  font-size: 1.4em;
+  font-family: sans-serif;
+  min-width: 40px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 }
 
+
+th {
+  background-color: black;
+}
 body {
   background-image: url("https://www.pngmagic.com/product_images/light-beautifull-background-design-sm.jpg");
   background-color: #cccccc;
